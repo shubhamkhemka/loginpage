@@ -14,7 +14,8 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script src="https://apis.google.com/js/api:client.js"></script>
         <script src="assets/google.js"></script>
-       
+        <script src="/assets/facebook.js"></script>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </head>
 <body>
     <div>
@@ -24,7 +25,7 @@
         <div class="divider1">
            
           </div>
-       <form id="login-form">
+       <div id="login-form">
             <div class="centre sign">SIGN UP</div>
             <div class="head">Create Your Account</div>
             <div class="centre">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
@@ -48,9 +49,10 @@
                          <!-- <div id="status"> 
                         </div> -->
                     <a href="https://www.facebook.com/" class="facebook">
-                       <div> <img src="assets/pics/fb2.png" alt=""></div>
+                       <div> <img src="assets/pics/fb.png" alt=""></div>
                         <div class="centre1">  Sign up with Facebook</div>
                 </a>
+            <!-- </fb:login-button> -->
                 </li>
                
               </ul>
@@ -75,16 +77,13 @@
             
             </div>
           </div>
-        </form>
+    </div>
     <div class="bottom">
         
     </div>
     <script>startApp();</script>
-    <script src="assets/form.js"></script>
-    <script src="assets/app.js"></script>
-  
-    <!-- <script src="/assets/facebook.js"></script> -->
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script src="/form.js"></script>
+    <script src="/app.js"></script>
     
 </body>
 </html>
